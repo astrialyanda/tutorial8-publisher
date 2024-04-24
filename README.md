@@ -6,3 +6,8 @@ Publisher dan subscriber memiliki url yang sama karena keduanya akan tersambung 
 
 **Running RabbitMQ as message broker**
 ![alt text](<Screenshot (782).png>)
+
+**Sending and and processing events**
+![alt text](<Screenshot (785).png>) <br>
+![alt text](<Screenshot (787).png>) <br>
+Gambar ini menunjukkan ketika publisher di run. Publisher akan mengirimkan data, lalu subscriber yang tersambung akan menampilkan message di console.
