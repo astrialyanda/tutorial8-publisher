@@ -3,3 +3,6 @@ Program akan mengirimkan 5 data ke message broker dalam satu kali run. `publish_
 
 **b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?** <br>
 Publisher dan subscriber memiliki url yang sama karena keduanya akan tersambung ke amqp yang sama yaitu RabbitMQ. Publisher mengirimkan message untuk queue sedangkan subscriber menerima message dari queue.
+
+**Running RabbitMQ as message broker**
+![alt text](<Screenshot (782).png>)
