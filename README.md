@@ -11,3 +11,7 @@ Publisher dan subscriber memiliki url yang sama karena keduanya akan tersambung 
 ![alt text](<Screenshot (785).png>) <br>
 ![alt text](<Screenshot (787).png>) <br>
 Gambar ini menunjukkan ketika publisher di run. Publisher akan mengirimkan data, lalu subscriber yang tersambung akan menampilkan message di console.
+
+**Monitoring chart based on publisher**
+![alt text](<Screenshot (789).png>)
+Spike pada chart kedua menunjukkan message rate dalam interval waktu. Ketika publisher di run, maka akan dikirimkan queue message.
